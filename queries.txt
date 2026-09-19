@@ -1,0 +1,31 @@
+?- father(abdullah, khalid).
+true.
+
+?- father(khalid, rakan).
+true.
+
+
+
+?- mother(noor, khalid).
+true.
+
+?- mother(noor, lara).
+true.
+
+
+
+
+?- sister(lara, khalid).
+true.
+
+?- sister(fajer, rakan).
+true.
+
+
+
+
+?- brother(khalid, lara).
+true.
+
+?- brother(rakan, fajer).
+true.
