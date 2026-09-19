@@ -21,7 +21,8 @@ true.
 ?- sister(fajer, rakan).
 true.
 
-
+?- sister(fajer, fajer).
+false.
 
 
 ?- brother(khalid, lara).
@@ -29,3 +30,6 @@ true.
 
 ?- brother(rakan, fajer).
 true.
+
+?- brother(rakan, rakan).
+false.
